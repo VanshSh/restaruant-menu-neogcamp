@@ -1,0 +1,39 @@
+.menu {
+  width: 60%;
+  max-width: 300px;
+  background-color: bisque;
+  border: 2px solid rgb(189, 143, 143);
+  padding: 0 0 0.5em 0;
+  border-radius: 2px;
+  margin: 0.7em auto;
+  cursor: pointer;
+}
+
+.menu img {
+  object-fit: cover;
+	height: 200px;
+	width: 100%;
+	border: 0.25rem ;
+	display: block;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info {
+  border-bottom: 0.2px dotted black;
+  margin-bottom: 0.5em;
+}
+
+.info h3 {
+  font-size: 1.5rem;
+  color: brown;
+  font-weight: 900;
+}
+
+.menu p {
+  color: rgb(73, 55, 38);
+  text-align: center;
+}

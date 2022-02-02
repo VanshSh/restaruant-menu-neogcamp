@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Lobster&family=Merriweather:wght@700&family=Outfit&display=swap");
+
+.header {
+  text-align: center;
+  margin-top: 2em;
+  font-family: "Fira ";
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.header h1 {
+  border-bottom: 5px solid orangered;
+  width: 30%;
+  margin: auto;
+  border-radius: 5px;
+  padding-bottom: 0.3em;
+  color:rgb(63, 59, 53);
+}

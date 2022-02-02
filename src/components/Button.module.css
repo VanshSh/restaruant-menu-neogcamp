@@ -1,0 +1,21 @@
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.code,
+.portfolio {
+  text-decoration: none;
+  margin: 1em;
+  color: whitesmoke;
+  background-color: #160c28;
+  padding: 0.5em;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.code:hover,
+.portfolio:hover {
+  background-color: rgb(94, 77, 126);
+}

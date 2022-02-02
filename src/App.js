@@ -1,10 +1,36 @@
 import "./styles.css";
+import Title from "./components/Title";
+import Categories from "./components/Categories";
+import Menu from "./components/Menu";
+import data from "./components/data";
+import Button from "./components/Button";
+import { useState } from "react";
 
-export default function App() {
+const categories = ["all", ...new Set(data.map((item) => item.category))];
+
+function App() {
+  const [menuItems, setMenuItems] = useState(data);
+
+  const filterItemHandler = (category) => {
+    if (category === "all") {
+      setMenuItems(data);
+    } else {
+      setMenuItems(
+        data.filter((item) => {
+          return item.category === category;
+        })
+      );
+    }
+  };
+
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
+    <>
+      <Title />
+      <Button />
+      <Categories filterItem={filterItemHandler} categories={categories} />
+      <Menu items={menuItems} />
+    </>
   );
 }
+
+export default App;

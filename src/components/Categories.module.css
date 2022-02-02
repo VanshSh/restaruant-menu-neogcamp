@@ -1,0 +1,32 @@
+.nav {
+  background-color: rgb(235, 207, 207);
+  width: 70%;
+  position: sticky;
+  margin: 0 auto;
+  top: 0;
+}
+.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  align-items: center;
+  list-style-type: none;
+  margin-top: 1em;
+}
+
+.nav ul li {
+  margin: 0 2em;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: brown;
+  letter-spacing: 0.1em;
+  padding: 0.5em 0.3em;
+}
+.nav ul li:hover {
+  background-color: rgb(197, 92, 92);
+  border-radius: 3px;
+  color: wheat;
+}
