@@ -6,7 +6,7 @@ const Button = () => {
       <main className={styles.links}>
         <a
           className={styles.code}
-          href="#"
+          href="https://github.com/VanshSh/restaruant-menu-neogcamp"
         >
           GitHub Code
         </a>
