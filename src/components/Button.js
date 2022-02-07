@@ -6,16 +6,19 @@ const Button = () => {
       <main className={styles.links}>
         <a
           className={styles.code}
-          href="https://github.com/VanshSh/restaruant-menu-neogcamp"
+          href='https://github.com/VanshSh/restaruant-menu-neogcamp'
         >
           GitHub Code
         </a>
-        <a className={styles.portfolio} href="#">
+        <a
+          className={styles.portfolio}
+          href='https://vanshsharma.netlify.app/index.html'
+        >
           Portfolio
         </a>
       </main>
     </nav>
-  );
+  )
 };
 
 export default Button;
